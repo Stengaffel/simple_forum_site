@@ -1,0 +1,237 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-image: url("background2.png");
+  background-position: top center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Login Screen */
+.contentRectangle {
+  width: 400px;
+  height: 330px;
+  margin: auto;
+  background-color: #ccffcc;
+  border: 10px solid limegreen;
+  padding: 50px 50px 50px 50px;
+}
+#login_h2 {
+  margin: 0 0 1em 0.5em;
+  font-size: 180%;
+}
+#login_form {
+  background-color: lightgreen;
+  border: 10px solid limegreen;
+  padding: 10px;
+}
+#login_form input {
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  font-size: 130%;
+}
+/* End for login screen */
+
+/* Creating new user */
+#create_form {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background-color: #ccffcc;
+  border: 10px solid limegreen;
+  padding: 50px;
+}
+#account_form p {
+  font-size: 120%;
+}
+#account_form input {
+  font-size: 110%;
+}
+/* End for user creation */
+
+/* Forum */
+#logout:link, #logout:visited {
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+  padding: 0.5em;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+#logout:hover, #logout:active {
+  background-color: green;
+}
+#forumField {
+  width: 100%;
+  height: 150px;
+}
+#postInput {
+  width: 700px;
+  height: 100%;
+  font-size: 150%;
+  float:left;
+  resize: none;
+}
+#sbutton {
+  width: 150px;
+  padding: 1em 0 1em 0;
+  float: right;
+  font-size: 200%;
+}
+.menuBar {
+  width: 100%;
+  height: 50px;
+  margin: 2em 0 0 0;
+  padding: 0 1em 0 1em;
+  background-color: #ccffcc;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+  border: 10px solid limegreen;
+}
+.menuBar a:link, .menuBar a:visited {
+  background-color: lightgreen;
+  color: black;
+  padding: 8px 18px;
+  margin: 0.4em 0 0 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+}
+.menuBar a:hover, .menuBar a:active {
+  background-color: green;
+}
+.posts {
+  width: 100%;
+  height: 170px;
+  background-color: #ccffcc;
+  padding: 0 1em 0 1em;
+  margin: 3em 0 0 0;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+  border: 10px solid limegreen;
+}
+.postinfo {
+  width: 100%;
+  height: 30%;
+}
+
+.postnum {
+  color: gray;
+  float:left;
+}
+.postnames {
+  font-size: 120%;
+  margin-left: 1em;
+  float:left;
+}
+.dates {
+  font-weight: bold;
+  float:right;
+}
+.limit {
+  width: 100%;
+  height: 65%;
+  word-wrap: break-word;
+}
+.posttexts {
+  width: 100%;
+  height: 100%;
+}
+/* End of forum */
+
+/* Userlist */
+#userBlock {
+  width: 100%;
+  background-color: #ccffcc;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+  border: 10px solid limegreen;
+}
+.userText {
+  font-size: 200%;
+  margin: 1em;
+}
+/* End of Userlist */
+
+/* Contact Us */
+#contact_form {
+  width: 100%;
+}
+#txtSubject {
+  width: 100%;
+  font-size: 100%;
+}
+#contactBlock {
+  width: 100%;
+  background-color: #ccffcc;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+  border: 10px solid limegreen;
+  padding: 0.5em 2em 6em 1em;
+}
+#contactBlock h2 {
+  text-decoration: underline;
+}
+#contact_form textarea {
+  width: 100%;
+  height: 12em;
+  font-size: 130%;
+  resize: none;
+}
+#contact_form p {
+  font-size: 140%;
+}
+#sendButton {
+  width: 6em;
+  height: 3em;
+  font-size: 150%;
+  float: right;
+}
+/* End of Contact Us */
+
+/* FAQ */
+#faqBlock {
+  width: 100%;
+  background-color: #ccffcc;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+  border: 10px solid limegreen;
+}
+/* End of FAQ */
+
+/* My Account */
+#emailSquare {
+  width: 100%;
+  background-color: #ccffcc;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+  border: 10px solid limegreen;
+}
+#removeSquare {
+  width: 100%;
+  background-color: #ccffcc;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+  border: 10px solid limegreen;
+}
+
+/* End of My Account */
